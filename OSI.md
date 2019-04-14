@@ -5,6 +5,7 @@
 | 3 | **N**etwork  |       |     |  | **Network Address**: Identifier for **Group** of devices (All Binary 0's in Host portion)
 |  |  |  |   |  | **Broadcast Address**: Identifier for **All** devices on network (All Binary 1's in Host portion)
 |  |  |  |   |  | **Host Address**: Identifies **Unique** device on network (Anything except all Binary 0's/1's in Host portion)
+|  |  |  |   |  | **CIDR Notation**
 | 4 | **T**ransport  |       |  TCP   | -  | **CONNECTION ORIENTED** , **3 Way Handshake** (SYN > SYN-ACK > ACK), **4 Way Disconnect** (FIN > FIN-ACK , FIN > FIN-ACK) ,**RESET**  (RST)
 |  |  |  |  UDP | - | **CONNECTIONLESS**
 | 5 | **S**ession  |       |     |
