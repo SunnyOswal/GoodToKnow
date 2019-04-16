@@ -1,9 +1,11 @@
++ **BGP**   : **B**order **G**ateway **P**rotocol
 + **CIDR**  : **C**lassless **I**nter **D**omain **R**outing
 + **DHCP**  : **D**ynamic **H**ost **C**onfiguration **P**rotocol
 + **DNS**   : **D**omain **N**ame **S**system
 + **FTP**   : **F**ile **T**ransfer **P**rotocol  
 + **HTTP**  : **H**yper **T**ext **T**ransfer **P**rotocol  
 Stateless, Application layer protocol for communicating between distributed systems
++ **ICMP**  : **I**nternet **C**ontrol **M**essage **P**rotocol  
 + **IMAP**  : **I**nternet **M**essage **A**ccess **P**rotocol
 + **LAMP**  : **L**inux **A**pache web server **MySQL** **PHP**
 + **LDAP**  : **L**ightweight **D**irectory **A**ccess **P**rotocol
@@ -17,7 +19,9 @@ Stateless, Application layer protocol for communicating between distributed syst
 + **SMB**   : **S**erver **M**essage **B**lock
 + **SNMP**  : **S**imple **N**etwork **M**anagement **P**rotocol
 + **SMTP**  : **S**imple **M**ail **T**ransfer **P**rotocol
++ **SSTP**  : **S**ecure **S**ocket **T**unneling **P**rotocol
 + **SSH**   : **S**ecure **SH**ell
 + **TCP**   : **T**ransmission **C**ontrol **P**rotocol
 + **TFTP**  : **T**rivial **F**ile **T**ransfer **P**rotocol  
 + **UDP**   : **U**ser **D**atagram **P**rotocol
++ **VPN**   : **V**irtual **P**rivate **N**etwork
