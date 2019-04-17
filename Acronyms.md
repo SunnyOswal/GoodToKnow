@@ -6,7 +6,7 @@
 + **DNS**   : **D**omain **N**ame **S**system
 + **FTP**   : **F**ile **T**ransfer **P**rotocol  
 + **HTTP**  : **H**yper **T**ext **T**ransfer **P**rotocol  
-Stateless, Application layer protocol for communicating between distributed systems
+`Stateless, Application layer protocol for communicating between distributed systems`
 + **ICMP**  : **I**nternet **C**ontrol **M**essage **P**rotocol  
 + **IMAP**  : **I**nternet **M**essage **A**ccess **P**rotocol
 + **LAMP**  : **L**inux **A**pache web server **MySQL** **PHP**
