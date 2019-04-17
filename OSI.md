@@ -7,8 +7,6 @@ The OSI model presents a **standard data flow architecture**, with **protocols**
 + On the *receiving computer*, the **various headers and the data trailer are stripped off**  
 `( DH + NH + TH + SH + PH + AH + DATA + DT)` one by one as the frame ascends the layers and finally reaches the receiving process.
 
-**DATA ENCAPSULATION**:  
-`Packet (L3) > Frame (L2)`
 
 | #        | LAYER        | PURPOSE           | PROTOCOL           | PORT  | CONCEPTS  |
 | ------------- | ------------- |:-------------:|:-------------:| -----:| -----:|
