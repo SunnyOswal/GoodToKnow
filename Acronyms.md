@@ -20,9 +20,10 @@ Stateless, Application layer protocol for communicating between distributed syst
 + **RDP**   : **R**emote **D**esktop **P**rotocol
 + **SAN**   : **S**torage **A**rea **N**etwork
 + **SIP**   : **S**ession **I**nitiation **P**rotocol
++ **SLAAC** : **S**tate **L**ess **A**ddress **A**uto **C**onfiguration
 + **SMB**   : **S**erver **M**essage **B**lock
-+ **SNMP**  : **S**imple **N**etwork **M**anagement **P**rotocol
 + **SMTP**  : **S**imple **M**ail **T**ransfer **P**rotocol
++ **SNMP**  : **S**imple **N**etwork **M**anagement **P**rotocol
 + **SSTP**  : **S**ecure **S**ocket **T**unneling **P**rotocol
 + **SSH**   : **S**ecure **SH**ell
 + **TCP**   : **T**ransmission **C**ontrol **P**rotocol
