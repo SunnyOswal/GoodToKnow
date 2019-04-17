@@ -11,7 +11,7 @@ The OSI model presents a **standard data flow architecture**, with **protocols**
 | #        | LAYER        | PURPOSE           | PROTOCOL           | PORT  | CONCEPTS  |
 | ------------- | ------------- |:-------------:|:-------------:| -----:| -----:|
 | 1 | **P**hysical  | Media,signal and binary transmission . Manages the **reception and transmission** of the unstructured raw bit stream over a physical medium | - | - | This puts data onto the wire at the source computer and then it is sent to the destination computer
-| 2 | **D**ata Link | Physical Addressing | - | - | Provides error-free transfer of **data frames** from one computer to another **over the physical layer**
+| 2 | **D**ata Link | Physical Addressing | ARP | - | Provides error-free transfer of **data frames** from one computer to another **over the physical layer**
 | 3 | **N**etwork  | Path determination and logical addressing . Controls the **operation of the subnet** | IP(v4/v6) | - | **Network Address**: Identifier for **Group** of devices (All Binary 0's in Host portion)
 |  |  |  | - | - | **Broadcast Address**: Identifier for **All** devices on network (All Binary 1's in Host portion)
 |  |  |  | - | - | **Host Address**: Identifies **Unique** device on network (Anything except all Binary 0's/1's in Host portion)
