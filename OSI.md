@@ -1,4 +1,4 @@
-[FRAME] The OSI model presents a **standard data flow architecture**, with **protocols** specified in such a way that the receiving layer at the **destination computer receives exactly the same object as sent by the matching layer at the source computer**.
+The OSI model presents a **standard data flow architecture**, with **protocols** specified in such a way that the receiving layer at the **destination computer receives exactly the same object as sent by the matching layer at the source computer**.
 
 **DATA FLOW:**  
 + The *sending process* passes data to the application layer. The *application layer* **attaches an application header(AH) and then passes the frame** to the presentation layer.
