@@ -12,6 +12,9 @@
 + IP (N-Layer):
   + Assign unique global addresses to every single device on the internet and helps find/identifiy them when required .
   + Dependent on Ethernet
-  
+
 + Ethernet (D-Layer):
   + Allows for local communication between one device and the next device and the next device and the next device.
+  
++ ARP (D-Layer):
+  + Used to find Destination MAC .
