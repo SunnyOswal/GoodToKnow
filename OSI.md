@@ -1,4 +1,4 @@
-The OSI model presents a **standard data flow architecture**, with **protocols** specified in such a way that the receiving layer at the **destination computer receives exactly the same object as sent by the matching layer at the source computer**.
+[FRAME] The OSI model presents a **standard data flow architecture**, with **protocols** specified in such a way that the receiving layer at the **destination computer receives exactly the same object as sent by the matching layer at the source computer**.
 
 **DATA FLOW:**  
 + The *sending process* passes data to the application layer. The *application layer* **attaches an application header(AH) and then passes the frame** to the presentation layer.
@@ -11,13 +11,13 @@ The OSI model presents a **standard data flow architecture**, with **protocols**
 | #        | LAYER        | PURPOSE           | PROTOCOL           | PORT  | CONCEPTS  |
 | ------------- | ------------- |:-------------:|:-------------:| -----:| -----:|
 | 1 | **P**hysical  | Media,signal and binary transmission . Manages the **reception and transmission** of the unstructured raw bit stream over a physical medium | Wires,FibreOptics | - | This puts data onto the wire at the source computer and then it is sent to the destination computer
-| 2 | **D**ata Link | Physical Addressing | ARP | - | Provides error-free transfer of **data frames** from one computer to another **over the physical layer**
+| 2 | **D**ata Link [FRAME] | Physical Addressing | ARP | - |  Provides error-free transfer of **data frames** from one computer to another **over the physical layer**
 |  |  |  |  Ethernet | - |
-| 3 | **N**etwork  | Path determination and logical addressing . Controls the **operation of the subnet** | IP(v4/v6) | - | **Network Address**: Identifier for **Group** of devices (All Binary 0's in Host portion)
+| 3 | **N**etwork [PACKET] | Path determination and logical addressing . Controls the **operation of the subnet** | IP(v4/v6) | - |  **Network Address**: Identifier for **Group** of devices (All Binary 0's in Host portion)
 |  |  |  | - | - | **Broadcast Address**: Identifier for **All** devices on network (All Binary 1's in Host portion)
 |  |  |  | - | - | **Host Address**: Identifies **Unique** device on network (Anything except all Binary 0's/1's in Host portion)
 |  |  |  | - | - | **CIDR Notation** , **IPv4** , **IPv6**
-| 4 | **T**ransport  | E2E connection and reliability . Ensures that messages are **delivered error-free, in sequence, and with no loss or duplication.** |  TCP   | -  | **CONNECTION ORIENTED** , **3 Way Handshake** (SYN > SYN-ACK > ACK), **4 Way Disconnect** (FIN > FIN-ACK , FIN > FIN-ACK) ,**RESET**  (RST)
+| 4 | **T**ransport [SEGMENT] | E2E connection and reliability . Ensures that messages are **delivered error-free, in sequence, and with no loss or duplication.** |  TCP   | -  |  **CONNECTION ORIENTED** , **3 Way Handshake** (SYN > SYN-ACK > ACK), **4 Way Disconnect** (FIN > FIN-ACK , FIN > FIN-ACK) ,**RESET**  (RST)
 |  |  |  |  UDP | - | **CONNECTIONLESS**
 | 5 | **S**ession  | InterHost communication |     |
 | 6 | **P**resentation  | Data representation and encryption |     |
