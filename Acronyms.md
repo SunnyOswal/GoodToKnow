@@ -2,6 +2,7 @@
 `I/P: IP Address , O/P : Mac Address`
 + **BGP**   : **B**order **G**ateway **P**rotocol
 + **CIDR**  : **C**lassless **I**nter **D**omain **R**outing
++ **CORS**  : **C**ross **O**rigin **R**esource **S**haring
 + **DHCP**  : **D**ynamic **H**ost **C**onfiguration **P**rotocol
 + **DNS**   : **D**omain **N**ame **S**system
 + **FTP**   : **F**ile **T**ransfer **P**rotocol  
@@ -16,6 +17,7 @@
 + **NAT**   : **N**etwork **A**ddress **T**ranslation
 + **NTP**   : **N**etwork **T**ime **P**rotocol
 + **OSI**   : **O**pen **S**ystems **I**nterconnection
++ **PING**  : **P**acket **IN**ternet **G**roper
 + **POP3**  : **P**ost **O**ffice **P**rotocol 3
 + **RDP**   : **R**emote **D**esktop **P**rotocol
 + **SAN**   : **S**torage **A**rea **N**etwork
