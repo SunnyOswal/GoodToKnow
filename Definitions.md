@@ -15,3 +15,6 @@ Combination of the IP address, Protocol (TCP or UDP) and the Port number forms a
 
 + Tracert  
 Traces the route a packet takes from the source to destination
+
++ Webhooks  
+are user-defined HTTP callbacks. They're triggered by some event, such as pushing code to a repo or updating a wiki page. When the event occurs, the source site makes an HTTP request to the URL configured for the webhook.
