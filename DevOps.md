@@ -14,8 +14,8 @@
 + In high performing organizations 'trust' plays a vital role. Culture is the first step in DevOps transformation. Then comes tools, processes and automation.
 
 + **3 principles of DevOps**
-  + Value Stream Mapping helps in establising the first way of DevOps which is FLOW from left to right.
-  + The second way of DevOps insists on amplifying short feedback loops from right to left.
+  + First way : Value Stream Mapping (FLOW from left to right).
+  + Second way : Insists on amplifying short feedback loops from right to left.
   
 + **5 values of DevOps**
   + **C**ulture, **A**utomation, **L**ean, **M**easurement and **S**haring  
@@ -35,8 +35,6 @@
 + Primary stakeholders of DevOps includes all the roles in the organization and also the suppliers.
 + Development : Product Manager role
 + Operations  : Database Administrator, Release Engineer and Information Security Engineer roles
-
-
 
 **MISCONCEPTIONS**
 + ISO is not involved in the subject of DevOps.
